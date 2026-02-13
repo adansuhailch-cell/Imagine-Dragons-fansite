@@ -1,0 +1,183 @@
+/*  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #101010;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+h2 {
+  color: #FF0000;
+}
+
+.contact-section {
+  max-width: 850px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-card {
+  text-align: left;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  padding-left: 100px;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #181818;
+  padding: 18px;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 1px solid #242424;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.card:hover {
+  background: #202020;
+  transform: translateY(-4px);
+}
+
+.DP {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+a {
+  color: white;
+  /* Jo colour chaho woh likh do 
+  text-decoration: none;
+  /* underline hatane ke liye 
+}
+
+a:hover {
+  color: red;
+  /* Hover par colour 
+}
+
+.wa {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', Arial, sans-serif;
+  /* Orbitron for futuristic vibe */
+}
+
+body {
+  background: linear-gradient(to right, #101010, #1a1a1a);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.contact-section {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #ff3c3c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #181818;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 0 12px rgba(255, 60, 60, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(255, 60, 60, 0.4);
+}
+.DP {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 2px solid #ff3c3c;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 22px;
+  color: #57e2ba;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 16px;
+  opacity: 0.85;
+  color: #cccccc;
+}
+
+.wa {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(37, 211, 102, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.wa:hover {
+  box-shadow: 0 0 12px rgba(37, 211, 102, 0.8);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff3c3c;
+}
