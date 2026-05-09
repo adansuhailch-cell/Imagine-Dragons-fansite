@@ -1,0 +1,58 @@
+{
+  "name": "Imagine Dragons Fan Universe",
+  "short_name": "Imagine Dragons",
+  "description": "Explore Imagine Dragons music, band members, discography, world tours & latest news. Home for devoted fans.",
+  "start_url": "https://yourdefault.com",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#121212",
+  "theme_color": "#ff4d4d",
+  "lang": "en",
+  "dir": "ltr",
+  
+  "icons": [
+    {
+      "src": "images/Imagine%20Dragon%20Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/Imagine%20Dragon%20Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  
+  "categories": ["music", "entertainment"],
+  
+  "screenshots": [
+    {
+      "src": "images/Imagine%20Dragon%20Logo.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/Imagine%20Dragon%20Logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "Listen to Music",
+      "url": "https://yourdefault.com/pages/music.html",
+      "description": "Play Imagine Dragons hit songs"
+    },
+    {
+      "name": "Contact Us",
+      "url": "https://yourdefault.com/pages/contactus.html",
+      "description": "Get in touch with fan community"
+    }
+  ]
+}

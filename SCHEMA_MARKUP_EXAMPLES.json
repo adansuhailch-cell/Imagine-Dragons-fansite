@@ -1,0 +1,194 @@
+{
+  "example": "Advanced Schema Markup Examples for Imagine Dragons Fan Site",
+  "description": "This file contains JSON-LD schema examples that can be added to your HTML pages for advanced SEO",
+  
+  "examples": {
+    
+    "1_music_recording": {
+      "description": "Individual song schema (add to music.html for each song)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "MusicRecording",
+        "name": "Believer",
+        "byArtist": {
+          "@type": "MusicGroup",
+          "name": "Imagine Dragons"
+        },
+        "inAlbum": {
+          "@type": "MusicAlbum",
+          "name": "Evolve"
+        },
+        "datePublished": "2017-11-24",
+        "duration": "PT3M24S",
+        "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc",
+        "image": "https://yourdefault.com/images/evolve.jpg"
+      }
+    },
+
+    "2_music_album": {
+      "description": "Music Album schema (for albums section)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "MusicAlbum",
+        "name": "Evolve",
+        "byArtist": {
+          "@type": "MusicGroup",
+          "name": "Imagine Dragons"
+        },
+        "datePublished": "2017-11-24",
+        "numberOfTracks": 11,
+        "image": "https://yourdefault.com/images/evolve.jpg",
+        "potentialAction": {
+          "@type": "ListenAction",
+          "target": "https://www.youtube.com/watch?v=KZH3JTBQU20"
+        }
+      }
+    },
+
+    "3_person_band_member": {
+      "description": "Band member schema (for members section)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dan Reynolds",
+        "birthDate": "1987-07-14",
+        "birthPlace": "Las Vegas, Nevada",
+        "jobTitle": "Lead Vocalist",
+        "worksFor": {
+          "@type": "MusicGroup",
+          "name": "Imagine Dragons"
+        },
+        "image": "https://yourdefault.com/images/dan.jpg",
+        "url": "https://en.wikipedia.org/wiki/Dan_Reynolds",
+        "sameAs": [
+          "https://www.instagram.com/thisisdan",
+          "https://twitter.com/TheDanReynolds"
+        ]
+      }
+    },
+
+    "4_event_tour": {
+      "description": "Tour/Event schema (for tour information)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Loom World Tour",
+        "description": "Imagine Dragons Loom World Tour 2024-2025",
+        "startDate": "2024-07-30",
+        "endDate": "2025-11-01",
+        "eventAttendanceMode": "OfflineEventAttendanceMode",
+        "eventStatus": "EventScheduled",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Imagine Dragons",
+          "url": "https://www.imaginedragonsmusic.com"
+        },
+        "performer": {
+          "@type": "MusicGroup",
+          "name": "Imagine Dragons"
+        },
+        "image": "https://yourdefault.com/images/loom-tour.jpg",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "150"
+        }
+      }
+    },
+
+    "5_local_business": {
+      "description": "Local business schema (for contact page)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Imagine Dragons Fan Community",
+        "image": "https://yourdefault.com/images/logo.png",
+        "description": "Imagine Dragons fan community and information hub",
+        "url": "https://yourdefault.com",
+        "telephone": "+92-307-4449331",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+92-307-4449331",
+          "contactType": "Customer Support",
+          "email": "contact@yourdefault.com",
+          "areaServed": "Worldwide",
+          "availableLanguage": "en"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "PK",
+          "addressLocality": "Lahore",
+          "addressRegion": "Punjab"
+        }
+      }
+    },
+
+    "6_faq_schema": {
+      "description": "FAQ schema (create FAQ page to appear in Google results)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "When was Imagine Dragons formed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Imagine Dragons was formed in 2009 in Las Vegas, Nevada."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who are the members of Imagine Dragons?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The band consists of Dan Reynolds (lead vocals), Wayne Sermon (guitar), Ben McKee (bass), and Platz Lanzisera (drums)."
+            }
+          }
+        ]
+      }
+    },
+
+    "7_video_schema": {
+      "description": "Video schema (improve video thumbnails in search results)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Imagine Dragons - Believer",
+        "description": "Official music video for Believer by Imagine Dragons",
+        "thumbnailUrl": "https://img.youtube.com/vi/7wtfhZwyrcc/sddefault.jpg",
+        "uploadDate": "2017-11-24",
+        "duration": "PT3M24S",
+        "contentUrl": "https://www.youtube.com/watch?v=7wtfhZwyrcc",
+        "embedUrl": "https://www.youtube.com/embed/7wtfhZwyrcc"
+      }
+    },
+
+    "8_aggregate_rating": {
+      "description": "Aggregate rating schema (works with reviews)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "MusicGroup",
+        "name": "Imagine Dragons",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "2500"
+        }
+      }
+    }
+  },
+
+  "implementation_tips": [
+    "Use https://schema.org/validator to validate your schemas",
+    "Test with Google Rich Results Test: https://search.google.com/test/rich-results",
+    "Add schemas progressively, test each one",
+    "Use JSON-LD format (recommended by Google) over Microdata",
+    "Schemas improve click-through rate (CTR) in search results by 20-30%",
+    "Different schema types appear in different search result formats"
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://yourdefault.com/</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yourdefault.com/images/Imagine%20Dragon%20Logo.png</image:loc>
+      <image:title>Imagine Dragons Official Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- Music Page -->
+  <url>
+    <loc>https://yourdefault.com/pages/music.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://yourdefault.com/images/fam-music.png</image:loc>
+      <image:title>Imagine Dragons Music Collection</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://yourdefault.com/pages/contactus.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://yourdefault.com/images/contact-us.png</image:loc>
+      <image:title>Contact Imagine Dragons Fan Team</image:title>
+    </image:image>
+  </url>
+
+</urlset>
